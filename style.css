@@ -1,0 +1,50 @@
+.main_wrapper{display:flex;justify-content: center;align-items: center;align-content: center;flex-direction:column}
+
+body, html {background-color:#7c80a7}
+
+.cover{width:80vw;max-width:800px;filter:invert(1)}
+.explain{align-text:right;width:80vw}
+
+
+h1, h3 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  color:white;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 26.4px
+}
+
+h3, p {
+  font-size: 14px
+}
+
+h3 {
+  line-height: 15.4px
+}
+
+blockquote, p, pre {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color:white;
+}
+
+p {
+  line-height: 20px
+}
+
+blockquote {
+  font-size: 21px;
+  line-height: 30px
+}
+
+pre {
+  font-size: 13px;
+  line-height: 18.57px
+}
