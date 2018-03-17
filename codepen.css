@@ -3,6 +3,15 @@ html, body {margin: 0; padding:0}
 a {color:#222!important}
 a:hover {color:white!important}
 
+@media only screen and (max-width:800px) {
+
+  a {color:#222!important}
+  a:hover {color:white!important}
+  .menuwrap{width:80%;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;font-size:14px;color:#222;
+  }
+}
+
 .footer {position:fixed;background-color:rgba(0,0,0,0); bottom:0;}
 
 .flexwrap {display:flex;justify-content:center;background-color:white; padding:5px;
