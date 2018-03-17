@@ -15,7 +15,7 @@ a:hover {color:white!important}
 .footer {position:fixed;background-color:rgba(0,0,0,0); bottom:0;}
 
 .flexwrap {display:flex;justify-content:center;background-color:white; padding:5px;
-font-family: Futura, "Trebuchet MS", Arial, sans-serif;font-size:20px;color:#222;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;font-size:20px;color:#222; box-shadow:15px 15px 15px rgba(0,0,0,.1);
 }
 #text-content {
     color: #000;
@@ -29,7 +29,7 @@ font-family: Futura, "Trebuchet MS", Arial, sans-serif;font-size:20px;color:#222
   display:none;
 }
 
-#randy {margin-top:25px;background-color:rgba(0,0,0,0);border: 1px solid black; font-family: Futura, "Trebuchet MS", Arial, sans-serif;-webkit-transition-duration: 0.6s;
+#randy {margin-top:35px;background-color:rgba(0,0,0,0);border: 1px solid black; font-family: Futura, "Trebuchet MS", Arial, sans-serif;-webkit-transition-duration: 0.6s;
 -moz-transition-duration: 0.6s;
 -ms-transition-duration: 0.6s;
 -o-transition-duration: 0.6s;
