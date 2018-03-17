@@ -1,4 +1,15 @@
 $(document).ready( function() {
+
+  var isMobile = window.matchMedia("only screen and (max-width: 600px)");
+
+      if (isMobile.matches) {
+        var viewportHeight = $('.main-wrap').css({ height: window.innerHeight });
+        $('.banner').css({ height: viewportHeight });
+          //Conditional script here
+      }
+
+
+
         var textArray = [
             'adequate.',	'bombastic.',	'a calamity.',	'creaky.',	'a crime scene.',	'disagreeable.',	'damned.',	'furious.',	'hazardous.',	'turning friends against each other', 'immoral.',	'laced.',	'odious.',	'offensive.',	'objectionable.',	'problematic.',	'ramshackle.',	'turbulent.',	'ungovernable.',	'vehement.',	'a wallop.',	'woeful.',	'widening the inequality gap.',	'yucky.',	'destructive', 'zany.',	'on a zoom.'  /**/
         ];
