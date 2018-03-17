@@ -1,19 +1,18 @@
 
-  var myArray = [
-  "Yo,",
-  "Damn,",
-  "Fuck, "
-];
 
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-
-
-document.getElementById('pop').innerHTML = randomItem;
 
 
 $(document).ready( function() {
 
 
+    var myArray = [
+    "Yo,",
+    "Damn,",
+    "Fuck, "
+  ];
+
+  var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+  
 document.getElementById('pop').innerHTML = randomItem;
 
   var isMobile = window.matchMedia("only screen and (max-width: 600px)");
@@ -27,7 +26,7 @@ document.getElementById('pop').innerHTML = randomItem;
 
 
         var textArray = [
-            'adequate.',	'bombastic.',	'a calamity.',	'creaky.',	'a crime scene.',	'disagreeable.',	'damned.',	'furious.',	'hazardous.',	'turning friends against each other.', 'immoral.',	'laced.',	'odious.',	'offensive.',	'objectionable.',	'problematic.',	'ramshackle.',	'turbulent.',	'ungovernable.',	'vehement.',	'a wallop.',	'woeful.',	'widening the inequality gap.',	'yucky.',	'destructive', 'zany.',	'on a zoom.'  /**/
+            'adequate.',	'bombastic.',	'a calamity.',	'creaky.',	'a crime scene.',	'disagreeable.',	'damned.',	'furious.',	'hazardous.',	'turning friends against each other', 'immoral.',	'laced.',	'odious.',	'offensive.',	'objectionable.',	'problematic.',	'ramshackle.',	'turbulent.',	'ungovernable.',	'vehement.',	'a wallop.',	'woeful.',	'widening the inequality gap.',	'yucky.',	'destructive', 'zany.',	'on a zoom.'  /**/
         ];
         $('#text-box').randomText( textArray, 5000, "El Randomizah!" ); // ( array, interval, ["reload text or html"] )
     });
